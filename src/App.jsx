@@ -1,4 +1,3 @@
-// App.jsx
 import Header from "./components/header/Header";
 import MovieSearchResults from "./components/movieSearchResults/MovieSearchResults";
 import { useState, useEffect } from "react";
