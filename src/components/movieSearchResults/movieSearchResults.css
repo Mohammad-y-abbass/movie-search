@@ -1,0 +1,42 @@
+.left {
+  background-color: #201f23;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  width: 20rem;
+  align-items: center;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  overflow-y: auto;
+  height: 70vh;
+}
+.left::-webkit-scrollbar {
+  width: 0;
+}
+.movie {
+  display: flex;
+  justify-content: space-between;
+  gap: 1rem;
+  align-items: center;
+  padding:0 1rem;
+  width: 90%;
+}
+.movie:hover {
+  background-color: #3d3b3f;
+}
+.movieImg {
+  width: 50px;
+  height: 70px;
+}
+.movieInfo {
+  text-align: left;
+  width: 100%;
+  padding: 0%;
+}
+
+.year {
+  display: flex;
+  align-items: center;
+  gap: .5rem;
+  margin-top: -1rem;
+}
