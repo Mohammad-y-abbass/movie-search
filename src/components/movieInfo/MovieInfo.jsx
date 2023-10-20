@@ -1,18 +1,16 @@
 import "./movieInfo.css";
 import { useState, useEffect } from "react";
-import dotenv from "dotenv";
-dotenv.config();
+
 
 const MovieInfo = ({ movieId }) => {
   const [movie, setMovie] = useState(null);
 
-
-
   useEffect(() => {
     const getSingleMovie = async () => {
-      API_KEY = process.env.API_KEY;
+
+      
       const res = await fetch(
-        `http://www.omdbapi.com/?apikey=${API_KEY}&i=${movieId}`
+        `http://www.omdbapi.com/?apikey=85018cf9&i=${movieId}`
       );
       const movieData = await res.json();
       setMovie(movieData);

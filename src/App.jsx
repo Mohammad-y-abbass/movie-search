@@ -17,7 +17,7 @@ const App = () => {
 
     const fetchMovies = async () => {
       const res = await fetch(
-        `http://www.omdbapi.com/?apikey=&s=${searchTitle}`,
+        `http://www.omdbapi.com/?apikey=85018cf9&s=${searchTitle}`,
         { signal: controller.signal }
       );
 
